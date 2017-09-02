@@ -1,0 +1,538 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+body    {font-family: 'Lato', sans-serif; color: #fff;}
+
+
+h1      {font-size:120px; font-weight: 80; text-align: center; margin-bottom: 60px;}
+h1 span {font-weight: 500;}
+
+h2      {font-size: 36px; padding: 0 0 20px 0; font-weight: 700;}
+
+p span  {font-size:16px; font-style: italic; display: block; margin-top: 20px;}
+
+
+.l-text     {text-align: right; width: 450px; float: left;}
+.r-text     {text-align: left; width: 450px; float: right;}
+#la-chaise  {width: 400px;}
+
+.l-image    {float: left; width: 451px;}
+.r-image    {float: right; width: 451px;}
+#chaise     {float: right; width: 581px;}
+
+.l-image img    {max-width:100%;}
+.r-image img    {max-width:100%;}
+#chaise img     {max-width:100%;}
+
+
+
+
+
+
+/*TITLE COVER*/
+    #section-1          {
+      background: url('../img/main.jpeg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+
+
+    }
+    #section-1 .header  {
+        position:absolute; top:40%; left:50%; margin:-0px 0 0 -400px; width:800px; text-align:center;height:30%;
+            -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+            overflow: hidden;
+            z-index: 2;
+    }
+    /*#section-1 img      {position: absolute; bottom: 10px; left:50%; margin: 0 0 0 -44px;}*/
+
+
+/*COCONUT CHAIR*/
+    #section-2          {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #section-2 .r-text  {
+        position:absolute; 
+        top:30%; 
+        left:50%; 
+        margin: 138px 0 0 0;
+        width:800px; 
+        text-align:center;
+        }
+
+/*RAR ARMCHAIR*/
+    #section-3          {background-color: #4BB263;}
+    #section-3 .l-text  {margin: 132px 0 0 0;}
+
+/*WIGGLE ARMCHAIR*/
+    #section-4          {background-color: #2F8CCC;}
+    #section-4 .r-text  {margin: 140px 0 0 0;}
+
+/*CHERNER ARMCHAIR*/
+    #section-5          {background-color: #E37225;}
+    #section-5 .l-text  {margin: 145px 0 0 0;}
+
+/*ZIG ZAG CAHIR*/
+    #section-6          {background-color: #B5BAC0;}
+    #section-6 .r-text  {margin: 100px 0 0 0;}   
+
+/*EGG CHAIR*/
+    #section-7          {background-color: #1abc9c;}
+    #section-7 .l-text  {margin: 132px 0 0 0;}    
+
+
+
+
+
+
+
+
+
+
+/*width between 1025 - 1300*/
+@media only screen 
+and (min-width : 1025px) 
+and (max-width : 1300px) {
+
+    h1      {font-size:96px; margin-bottom: 60px;}
+    h2      {font-size:29px; padding: 0 0 20px 0; }
+    p       {font-size:19px;}
+    p span  {font-size:13px; margin-top:16px;}
+
+    .l-text     {width: 360px;}
+    .r-text     {width: 360px;}
+
+    .l-image                {float:left; width:361px;}
+    .r-image                {float:right; width:361px;}
+    #la-chase-img           {float:right; width:465px;}
+
+    .container {margin:-200px 0 0 -410px; width:810px; height: 400px;} 
+
+    #section-1 .header  {margin:0 0 0 -320px; width:640px;}
+
+
+/*   HAVENT CHANGED THE SCROLL ARROW CSS   */
+
+
+/*COCONUT CHAIR*/
+    #section-2 .r-text  {margin: 110px 0 0 0;}
+
+/*RAR ARMCHAIR*/
+    #section-3 .l-text  {margin: 106px 0 0 0;}
+
+/*WIGGLE ARMCHAIR*/
+    #section-4 .r-text  {margin: 112px 0 0 0;}
+
+/*CHERNER ARMCHAIR*/
+    #section-5 .l-text  {margin: 116px 0 0 0;}
+
+/*ZIG ZAG CAHIR*/
+    #section-6 .r-text  {margin: 80px 0 0 0;}   
+
+/*EGG CHAIR*/
+    #section-7 .l-text  {margin: 106px 0 0 0;}    
+
+/*LCW ARMCHAIR*/
+    #section-8 .r-text  {margin: 95px 0 0 0;}   
+
+/*LA CHAISE*/
+    #section-9 .l-text  {margin: 96px 0 0 0;}
+    #la-chaise          {width:320px;}
+    #chaise             {width:465px;}
+
+
+
+/*LLI DESIGN*/
+    .lli-container      {width: 712px; height: 280px; margin: -140px 0 0 -356px;}
+    .lli-container-img  {padding: 88px 88px 88px 0; width: 73px;}
+    .lli-container p    {padding: 72px 0 0 88px; width: 457px;}
+
+    .social-buttons     {width: 320px; margin: 0 0 0 -160px;}
+
+
+/*404 ERROR PAGE*/
+    #error              {margin:0 0 0 -280px; width:560px;}
+
+
+}
+
+
+
+/* Container for skill bars */
+.skillbar {
+    position:relative;
+    width: 90%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    margin:auto;
+    opacity:.8;
+
+}
+.skillentry{
+  padding-top: 30px;
+}
+.skillentry p{
+  margin-left: 40px;
+}
+.skills {
+    text-align: right; /* Right-align text */
+    padding-left: 0px!important;
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #2196F3;} 
+.css {width: 80%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #2196F3;} 
+.php {width: 60%; background-color: #2196F3;} 
+
+
+h3.w3l_head {
+    text-align: center;
+    color: #111;
+    font-size: 3.5em;
+    letter-spacing: 2px;
+}
+h3.w3l_head.three {
+    color: #44c7f4;
+}
+
+.education-agile-w3l-year {
+      float: left;
+    width: 30%;
+    border-left: 5px solid #eb5424;
+    padding-left: 14px;
+}
+.education-agile-w3l-info {
+    float: right;
+    width: 69%;
+}
+.education-w3l {
+    padding: 8em 4em;
+    background: #f3f2f2;
+}
+.education-agile-w3l-info h4 ,.education-agile-w3l-year h4{
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: 2px;
+}
+.education-agile-grids {
+    margin-top: 2em;
+    position:relative;
+}
+.education-agile-w3l-year h6 {
+    color: #44c7f4;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    font-style:italic;
+    font-size:1em;
+}
+.education-agile-w3l-info p {
+    font-size: 0.9em;
+    line-height: 1.9em;
+    color: #777;
+    margin-top: 10px;
+}
+.education-agile-w3l.two {
+    margin: 1em 0;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+    padding: 1em 0;
+}
+#skills-wrapper{
+  color:white;
+  padding: 50px;
+  position:relative;
+}
+.skills-ed-grid{
+  margin:auto;
+  width:70%;
+  height:600px
+  background-color: white;
+  z-index: 1;
+  position:relative;
+}
+
+.plx{
+    background: url(../img/deskskills.jpg) 50% 0 no-repeat fixed;
+    background-size: 125%;
+    margin: 0;
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;   
+    z-index:-1;
+}
+.header h1 {
+    font-family: "Comfortaa";
+    font-size: 60px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    color:white;
+    letter-spacing: 1px!important;
+}
+
+/*hover buttons*/
+.wrapper {
+ -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1s;
+  display: inline-flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+margin-right: auto;
+  margin-left: auto;
+  left:39%;
+-webkit-animation: slideIn 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: slideIn 2s; /* Firefox < 16 */
+        -ms-animation: slideIn 2s; /* Internet Explorer */
+         -o-animation: slideIn 2s; /* Opera < 12.1 */
+            animation: slideIn 2s;
+
+}
+@keyframes slideIn {
+    from { padding-top:100%; }
+    to   { padding-top:0; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes slideIn {
+    from { padding-top:100%; }
+    to   { padding-top:0; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes slideIn {
+    from { padding-top:100%; }
+    to   { padding-top:0; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes slideIn {
+    from { padding-top:100%; }
+    to   { padding-top:0; }
+}
+i {
+  padding: 0px 10px 0px 10px;
+}
+
+.wrapper a:nth-child(1) {
+color: white;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+  z-index:2;
+}
+
+.wrapper a:nth-child(1):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+.wrapper a:nth-child(2) {
+  color: white;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+  z-index:2;
+}
+
+.wrapper a:nth-child(2):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+.wrapper a:nth-child(3) {
+  color: white;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 150ms;
+  z-index:2;
+}
+
+.wrapper a:nth-child(3):hover {
+  margin-top: -10px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+  transform: translate(0, -5);
+}
+.wrapper a:nth-child(4) {
+  color: white;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+  z-index:2;
+}
+.wrapper a:nth-child(4):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+.cursivecaption{
+  z-index:2;
+}
+.caption{
+    font-size: 20px;
+    color: #2196F3;
+    padding-top:.5%;
+    margin:0;
+    font-family: "Berkshire Swash";
+    font-style: italic;
+}
+.horizontalbar {
+    overflow: hidden;
+    text-align: center;
+}
+.horizontalbar:before,
+.horizontalbar:after {
+    background-color:#eb5424;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 15%;
+}
+.horizontalbar:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.horizontalbar:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+#title {
+    height:20%;
+    position:relative;
+
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}underline-opening
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.get {
+  display:none;
+}
+
+#diagram {
+  top: 200px !important;
+  float:left;
+  width:600px;
+  height:600px;
+}
+
+.box {
+  position: absolute;
+  perspective: 400px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transition: perspective 5s;
+  margin:0;
+  padding: 0;
+}
+
+.fore-box {
+  z-index: 1;
+}
+
+.bg-box {
+  z-index: 0;
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 5s;
+}
+
+.fore {
+  z-index: 1;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/9332/hills-foreground.png');
+  background-size: cover;
+}
+
+.bg {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9332/hills-bg.jpg);
+  transform: translateZ(50px);
+  background-size: cover;
+}
+
+.box.on .fore {
+  transform: translateZ(100px);
+}
+.box.on .bg {
+  transform: translateZ(0);
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.ui {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+
+button {
+  width: 84px;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  background: gold;
+  border: 2px solid black;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  border-radius: 4px;
+}
+button:hover {
+  background: #ffdf33;
+}
+button:active {
+  color: gold;
+  background: black;
+}

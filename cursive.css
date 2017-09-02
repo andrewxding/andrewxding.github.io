@@ -1,0 +1,98 @@
+
+
+polyline{
+  fill:none;
+  stroke:#222222;
+  stroke-width:6;
+  stroke-linejoin:round;
+  fill-rule:nonzero;
+  color: rgb(0, 0, 0);
+}
+#svg_1 {
+  stroke-dasharray: 300;
+  animation: write1 7s infinite linear;
+}
+
+@keyframes write1 {
+    0% {
+        stroke-dashoffset: 300;
+    }
+    5% {
+        stroke-dashoffset: 0;
+    }
+}
+#svg_2{
+  stroke-dasharray: 250;
+  animation: write2 7s infinite ease-in;
+}
+ 
+@keyframes write2 {
+    0%, 15% {
+        stroke-dashoffset: 250;
+    }
+    18% {
+        stroke-dashoffset: 0;
+    }
+}
+#svg_3{
+  stroke-dasharray: 1200;
+  animation: write3 7s infinite ease-in;
+}
+@keyframes write3 {
+    0%, 20% {
+        stroke-dashoffset: 1200;
+    }
+    50% {
+        stroke-dashoffset: 0;
+    }
+}
+#svg_4{
+  stroke-dasharray: 500;
+  animation: write4 7s infinite ease-in;
+}
+@keyframes write4 {
+    0%, 52% {
+        stroke-dashoffset: 500;
+    }
+    55% {
+        stroke-dashoffset: 0;
+    }
+}
+#svg_5{
+  stroke-dasharray: 300;
+  animation: write5 7s infinite linear;
+}
+@keyframes write5 {
+    0%, 57% {
+        stroke-dashoffset: 300;
+    }
+    60% {
+        stroke-dashoffset: 0;
+    }
+}
+
+#svg_6{
+  stroke-dasharray: 1000;
+  animation: write6 7s infinite linear;
+}
+@keyframes write6 {
+    0%, 62% {
+        stroke-dashoffset: 1000;
+    }
+    80% {
+        stroke-dashoffset: 0;
+    }
+}
+#svg_7{
+  stroke-dasharray: 100;
+  animation: write7 7s infinite linear;
+}
+@keyframes write7 {
+    0%, 82% {
+        stroke-dashoffset: 100;
+    }
+    83% {
+        stroke-dashoffset: 0;
+    }
+}
+
