@@ -1,9 +1,15 @@
+#s4wrap{
+    padding-top: 10%!important;
+}
+.gallery{
+    padding-top:5%;
+}
 .view {
-    width: 350px;
-    height: 250px;
-    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 3% 3%;
     float: left;
-    padding:right 10px;
+    padding: auto;
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -19,8 +25,8 @@
 
 
 .view .mask, .view .content {
-    width: 350px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -28,8 +34,8 @@
 }
 .view img {
     display: block;
-    width: 350px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     position: relative
 }
 .view h2 {

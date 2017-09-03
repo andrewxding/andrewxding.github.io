@@ -15,7 +15,7 @@ $(function(){
        });
             
 
-    });
+  });
 // var f = (function(){
 //   var oldPos = window.scrollY;
 //     function fu(e) {
@@ -36,7 +36,6 @@ $(function(){
 
 /*Sticky menu script*/
 $(document).ready(function() {
-
   var $window   = $(window),
       height    = $window.height(),
       width     = $window.width(),
@@ -45,12 +44,13 @@ $(document).ready(function() {
   function sticky(){
     var scrollTop = $window.scrollTop();
     if (scrollTop > (height - navheight)) {
+      console.log("sauce");
       $('#nav_wrap').addClass('sticky');
       $( "#nav_wrap" ).insertBefore( $( ".curtains" ) );
-      //$('nav').addClass('nav_animate');
+      // $('nav').addClass('nav_animate');
        $('nav').css({
            'width': 70 + '%', 
-           'transition':' width 1s !important'
+           'transition':' width .5s'
        });    
       setTimeout(function(){ 
         $('#logo').css({
@@ -84,7 +84,8 @@ $(document).ready(function() {
     }
   } 
 
-  $window.on('scroll', sticky);  
+  $window.on('scroll', sticky); 
+ 
 });
 
 // if (scrollTop > stickyNavTop) { 

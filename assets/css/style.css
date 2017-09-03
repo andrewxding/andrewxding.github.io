@@ -61,34 +61,23 @@ p span  {font-size:16px; font-style: italic; display: block; margin-top: 20px;}
         background-size: cover;
         background-attachment: fixed;
     }
-    #section-2 .r-text  {
-        position:absolute; 
-        top:30%; 
-        left:50%; 
-        margin: 138px 0 0 0;
-        width:800px; 
-        text-align:center;
-        }
-
 /*RAR ARMCHAIR*/
-    #section-3          {background-color: #4BB263;}
+    #section-3          {}
     #section-3 .l-text  {margin: 132px 0 0 0;}
 
 /*WIGGLE ARMCHAIR*/
-    #section-4          {background-color: #2F8CCC;}
+    #section-4          {}
     #section-4 .r-text  {margin: 140px 0 0 0;}
 
 /*CHERNER ARMCHAIR*/
-    #section-5          {background-color: #E37225;}
+    #section-5          {;}
     #section-5 .l-text  {margin: 145px 0 0 0;}
 
 /*ZIG ZAG CAHIR*/
-    #section-6          {background-color: #B5BAC0;}
+    #section-6          {}
     #section-6 .r-text  {margin: 100px 0 0 0;}   
 
 /*EGG CHAIR*/
-    #section-7          {background-color: #1abc9c;}
-    #section-7 .l-text  {margin: 132px 0 0 0;}    
 
 
 
@@ -205,76 +194,6 @@ h3.w3l_head {
 }
 h3.w3l_head.three {
     color: #44c7f4;
-}
-
-.education-agile-w3l-year {
-      float: left;
-    width: 30%;
-    border-left: 5px solid #eb5424;
-    padding-left: 14px;
-}
-.education-agile-w3l-info {
-    float: right;
-    width: 69%;
-}
-.education-w3l {
-    padding: 8em 4em;
-    background: #f3f2f2;
-}
-.education-agile-w3l-info h4 ,.education-agile-w3l-year h4{
-    font-size: 1.6em;
-    text-transform: uppercase;
-    color: #333;
-    letter-spacing: 2px;
-}
-.education-agile-grids {
-    margin-top: 2em;
-    position:relative;
-}
-.education-agile-w3l-year h6 {
-    color: #44c7f4;
-    text-transform: uppercase;
-    letter-spacing:2px;
-    font-style:italic;
-    font-size:1em;
-}
-.education-agile-w3l-info p {
-    font-size: 0.9em;
-    line-height: 1.9em;
-    color: #777;
-    margin-top: 10px;
-}
-.education-agile-w3l.two {
-    margin: 1em 0;
-    border: 1px solid #ddd;
-    border-left: none;
-    border-right: none;
-    padding: 1em 0;
-}
-#skills-wrapper{
-  color:white;
-  padding: 50px;
-  position:relative;
-}
-.skills-ed-grid{
-  margin:auto;
-  width:70%;
-  height:600px
-  background-color: white;
-  z-index: 1;
-  position:relative;
-}
-
-.plx{
-    background: url(../img/deskskills.jpg) 50% 0 no-repeat fixed;
-    background-size: 125%;
-    margin: 0;
-    height: 100%;
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;   
-    z-index:-1;
 }
 .header h1 {
     font-family: "Comfortaa";
@@ -402,7 +321,7 @@ color: white;
 }
 .horizontalbar:before,
 .horizontalbar:after {
-    background-color:#eb5424;
+    background-color:#c39176;
     content: "";
     display: inline-block;
     height: 3px;
@@ -535,4 +454,13 @@ button:hover {
 button:active {
   color: gold;
   background: black;
+}
+
+#education{
+  padding-top:10%;
+}
+
+
+.sectiontitle{
+  padding-top:15%;
 }

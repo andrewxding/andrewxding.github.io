@@ -45,13 +45,13 @@ $(document).ready(function() {
   var gallery = [];
   gallery.push(new entry("C++", "school at ucla taught", "http://globalgamejam.org/sites/default/files/styles/game_sidebar__normal/public/game/featured_image/promo_5.png?itok=9dymM8JD", "http://google.com", "c++", ["c++"]));
   gallery.push(new entry("Spotify Scraper", 
-    "Utilized window GUI API to extract song/artist information and used Beautiful Soup and api requests to Genius and wikipedia to scrape lyrics and background information",
+    "Extract song/artist information and scrapes the song lyrics and artist background information",
     "http://www.scdn.co/i/_global/open-graph-default.png",
     "http://google.com",
     "python",
     ["python"]));
   gallery.push(new entry("Location Listener", 
-    "Chrome Extension offering tab audio utility based on location! Mutes tabs at quiet preset locations such as the library or class.",
+    "Chrome Extension offering tab audio utility! Mutes tabs at quiet preset locations such as the library or class.",
     "https://voltron00x.files.wordpress.com/2014/04/chrome-os-2odl-800.jpg",
     "http://google.com",
     "javascript",
@@ -59,7 +59,7 @@ $(document).ready(function() {
     gallery.push(new entry("C++", "school at ucla taught", "http://globalgamejam.org/sites/default/files/styles/game_sidebar__normal/public/game/featured_image/promo_5.png?itok=9dymM8JD", "http://google.com", "c++", ["c++"]));
 
   gallery.push(new entry("Location Listener", 
-    "Chrome Extension offering tab audio utility based on location! Mutes tabs at quiet preset locations such as the library or class.",
+    "Chrome Extension offering tab audio utility! Mutes tabs at quiet preset locations such as the library or class.",
     "https://voltron00x.files.wordpress.com/2014/04/chrome-os-2odl-800.jpg",
     "http://google.com",
     "code",
@@ -67,11 +67,11 @@ $(document).ready(function() {
   gallery.forEach(createEntry);
 });
 
-// function fadeGallery(){
-// 	$("#gallery").find('div').fadeOut("fast", function(){
-// 		$(this).remove();
-// 	});
-// };
+function fadeGallery(){
+	$("#gallery").find('div').fadeOut("fast", function(){
+		$(this).remove();
+	});
+};
 var array = [];
 var o = {
 	init: function(){
@@ -146,7 +146,7 @@ var o = {
 				 	$("#gallery").find('div').each(function(){//restore everything if array empty and restore not everything if not
 				 		var temp = $(this).data('tech');
 				 		if(temp && arrayContainsAnotherArray(array, temp)){
-				 			$(this).css({opacity:1, height: "250px", width: '350px'});
+				 			$(this).css({opacity:1, height: "200px", width: '200px'});
 				 		}
 				 	});
 				 };
