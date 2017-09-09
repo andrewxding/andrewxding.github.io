@@ -18,7 +18,7 @@ html{
     left: 0;
     width: 100%;
     height: 100%!important;
-    overflow: hidden;
+    overflow: visible;
     z-index:1;
 }
 .curtains>li.hidden{display:none;}

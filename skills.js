@@ -81,7 +81,7 @@ var o = {
 		return Math.floor((Math.random()*(u-l+1))+l);
 	},
 	diagram: function(){
-		var r = Raphael('diagram', 600, 600),
+		var r = Raphael('diagram', 550, 550),
 			rad = 73;
 
 		r.circle(300, 300, 85).attr({ stroke: 'none', fill: '#193340' });
@@ -112,7 +112,7 @@ var o = {
 				text = t.find('.text').text();
 
 			rad += 30;	
-			var z = r.path().attr({ arc: [value, color, rad], 'stroke-width': 26 });
+			var z = r.path().attr({ arc: [value, color, rad], 'stroke-width': 20 });
 			var clicked = false;
 			z.mouseover(function(){
 				
