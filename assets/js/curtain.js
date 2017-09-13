@@ -234,8 +234,11 @@
                 }
 
                 if(self.$fade.length){
-                    self.$fade.css({
-                        'opacity': 1-(docTop/ self.$fade.attr('data-fade'))
+                    self.$fade.each(function(){
+                        $(this).css({
+                        'opacity': 1-((docTop % $(window).height())/ $(this).attr('data-fade'))
+                        });
+                        console.log($(this).attr('data-fade'))
                     });
                 }
 
@@ -443,7 +446,7 @@
             }
   
             this.options.bodyHeight = h;
-            $('body').height(h);
+            $('body').height(h+50);
         },
         setLinks: function(){
             var self = this;

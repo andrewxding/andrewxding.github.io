@@ -40,9 +40,11 @@ nav a {
   font-size: 21px;
   text-decoration: none;
   color: #505050;
-  width: 24.5%;
+  width: 25%;
   text-align: center;
   line-height: 65px;
+  padding:0;
+  margin:0;
 }
 nav a:link, nav a:visited, nav a:hover, nav a:active {
     text-decoration: none;
@@ -62,7 +64,7 @@ nav a:nth-child(4) {
 }
 
 nav a:hover {
-  border-top: 5px solid #4a4a4a;
+  border-top: 5px solid  #c39176;
   transition: .4s;
 }
 
@@ -92,7 +94,7 @@ nav a:hover {
   font-weight: bolder;
 }
 #logo:hover{
-  background:#c39176
+  background:#c39176;
 }
 #social {
   top: -7px;
@@ -117,8 +119,8 @@ span{position:relative;z-index:2;text-decoration:none;-webkit-touch-callout:none
 
 
 span{display:inline;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;transition:color 1s ease}
-span:focus,span:hover{outline:0;color:#1B98E0;-webkit-transition:color 1s ease;-moz-transition:color 1s ease;-ms-transition:color 1s ease;-o-transition:color 1s ease;transition:color 1s ease;cursor:pointer}
+span:focus,span:hover{outline:0;color: #c39176;-webkit-transition:color 1s ease;-moz-transition:color 1s ease;-ms-transition:color 1s ease;-o-transition:color 1s ease;transition:color 1s ease;cursor:pointer}
 
 span:after,span:before{-webkit-transition:all 1s ease 0s;-moz-transition:all 1s ease 0s;-ms-transition:all 1s ease 0s;-o-transition:all 1s ease 0s;transition:all 1s ease 0s}
 
-span:focus:after,span:focus:before,span:hover:after,span:hover:before{outline:0;background-color:#1B98E0;-webkit-transition:all 1s ease 0s;-moz-transition:all 1s ease 0s;-ms-transition:all 1s ease 0s;-o-transition:all 1s ease 0s;transition:all 1s ease 0s}
+span:focus:after,span:focus:before,span:hover:after,span:hover:before{outline:0;background-color: #c39176;-webkit-transition:all 1s ease 0s;-moz-transition:all 1s ease 0s;-ms-transition:all 1s ease 0s;-o-transition:all 1s ease 0s;transition:all 1s ease 0s}

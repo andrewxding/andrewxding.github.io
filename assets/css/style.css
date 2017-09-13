@@ -1,7 +1,7 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
 
-body    {font-family: 'Lato', sans-serif; color: #fff;}
+body    {font-family: 'Comfortaa', sans-serif; color: #fff;}
 
 
 h1      {font-size:120px; font-weight: 80; text-align: center; margin-bottom: 60px;}
@@ -10,22 +10,6 @@ h1 span {font-weight: 500;}
 h2      {font-size: 36px; padding: 0 0 20px 0; font-weight: 700;}
 
 p span  {font-size:16px; font-style: italic; display: block; margin-top: 20px;}
-
-
-.l-text     {text-align: right; width: 450px; float: left;}
-.r-text     {text-align: left; width: 450px; float: right;}
-#la-chaise  {width: 400px;}
-
-.l-image    {float: left; width: 451px;}
-.r-image    {float: right; width: 451px;}
-#chaise     {float: right; width: 581px;}
-
-.l-image img    {max-width:100%;}
-.r-image img    {max-width:100%;}
-#chaise img     {max-width:100%;}
-
-
-
 
 
 
@@ -42,7 +26,7 @@ p span  {font-size:16px; font-style: italic; display: block; margin-top: 20px;}
     }
     #section-1 .header  {
         position:absolute; top:40%; left:50%; margin:-0px 0 0 -400px; width:800px; text-align:center;height:30%;
-            -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+      -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 4s; /* Firefox < 16 */
         -ms-animation: fadein 4s; /* Internet Explorer */
          -o-animation: fadein 4s; /* Opera < 12.1 */
@@ -61,23 +45,6 @@ p span  {font-size:16px; font-style: italic; display: block; margin-top: 20px;}
         background-size: cover;
         background-attachment: fixed;
     }
-/*RAR ARMCHAIR*/
-    #section-3          {}
-    #section-3 .l-text  {margin: 132px 0 0 0;}
-
-/*WIGGLE ARMCHAIR*/
-    #section-4          {}
-    #section-4 .r-text  {margin: 140px 0 0 0;}
-
-/*CHERNER ARMCHAIR*/
-    #section-5          {;}
-    #section-5 .l-text  {margin: 145px 0 0 0;}
-
-/*ZIG ZAG CAHIR*/
-    #section-6          {}
-    #section-6 .r-text  {margin: 100px 0 0 0;}   
-
-/*EGG CHAIR*/
 
 
 
@@ -88,71 +55,17 @@ p span  {font-size:16px; font-style: italic; display: block; margin-top: 20px;}
 
 
 
-/*width between 1025 - 1300*/
+
 @media only screen 
-and (min-width : 1025px) 
-and (max-width : 1300px) {
-
+and (max-width: 767px){
+/*
     h1      {font-size:96px; margin-bottom: 60px;}
     h2      {font-size:29px; padding: 0 0 20px 0; }
     p       {font-size:19px;}
     p span  {font-size:13px; margin-top:16px;}
-
-    .l-text     {width: 360px;}
-    .r-text     {width: 360px;}
-
-    .l-image                {float:left; width:361px;}
-    .r-image                {float:right; width:361px;}
-    #la-chase-img           {float:right; width:465px;}
-
-    .container {margin:-200px 0 0 -410px; width:810px; height: 400px;} 
-
-    #section-1 .header  {margin:0 0 0 -320px; width:640px;}
-
-
-/*   HAVENT CHANGED THE SCROLL ARROW CSS   */
-
-
-/*COCONUT CHAIR*/
-    #section-2 .r-text  {margin: 110px 0 0 0;}
-
-/*RAR ARMCHAIR*/
-    #section-3 .l-text  {margin: 106px 0 0 0;}
-
-/*WIGGLE ARMCHAIR*/
-    #section-4 .r-text  {margin: 112px 0 0 0;}
-
-/*CHERNER ARMCHAIR*/
-    #section-5 .l-text  {margin: 116px 0 0 0;}
-
-/*ZIG ZAG CAHIR*/
-    #section-6 .r-text  {margin: 80px 0 0 0;}   
-
-/*EGG CHAIR*/
-    #section-7 .l-text  {margin: 106px 0 0 0;}    
-
-/*LCW ARMCHAIR*/
-    #section-8 .r-text  {margin: 95px 0 0 0;}   
-
-/*LA CHAISE*/
-    #section-9 .l-text  {margin: 96px 0 0 0;}
-    #la-chaise          {width:320px;}
-    #chaise             {width:465px;}
-
-
-
-/*LLI DESIGN*/
-    .lli-container      {width: 712px; height: 280px; margin: -140px 0 0 -356px;}
-    .lli-container-img  {padding: 88px 88px 88px 0; width: 73px;}
-    .lli-container p    {padding: 72px 0 0 88px; width: 457px;}
-
-    .social-buttons     {width: 320px; margin: 0 0 0 -160px;}
-
-
-/*404 ERROR PAGE*/
-    #error              {margin:0 0 0 -280px; width:560px;}
-
-
+*/
+/*    .container {margin:100px 0 0 -410px; width:100%; height: 120%;} */
+    .curtains > li {height: 120% !important;}
 }
 
 
@@ -373,7 +286,6 @@ color: white;
 
 #diagram {
   top: 200px !important;
-  float:left;
   width:600px;
   height:600px;
 }
@@ -456,11 +368,37 @@ button:active {
   background: black;
 }
 
-#education{
-  padding-top:10%;
+.sr-icons{
+  color: #c39176 !important;
 }
+.section-heading{
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  letter-spacing: 1px!important;
+}
+.sectionhead{
+  padding-top:10% !important;
+  font-size: 60px;
+  line-height: 26.4px;
+  color:white;
+}
+.text-brown{
+  color:#c39176;
+}
+.text-faded{
+  font-family: "Merriweather";
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  color:white;
+  padding-bottom: 2%;
+}
+.banner{
+  width:100%; 
+  padding-top:5%;
+  background-color: #c39176;
 
-
-.sectiontitle{
-  padding-top:15%;
 }
