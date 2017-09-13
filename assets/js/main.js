@@ -1,7 +1,7 @@
 $(function(){
-     $('button').on('click', function() {
+     setTimeout(function(){ 
         $('.box').toggleClass('on');
-      })
+      }, 1000)
 
       var  $body = $('body')
 
