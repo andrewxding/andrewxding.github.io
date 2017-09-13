@@ -44,7 +44,6 @@ $(document).ready(function() {
   function sticky(){
     var scrollTop = $window.scrollTop();
     if (scrollTop > (height - navheight)) {
-      console.log("sauce");
       $('#nav_wrap').addClass('sticky');
       $( "#nav_wrap" ).insertBefore( $( ".curtains" ) );
       // $('nav').addClass('nav_animate');

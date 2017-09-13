@@ -238,7 +238,6 @@
                         $(this).css({
                         'opacity': 1-((docTop % $(window).height())/ $(this).attr('data-fade'))
                         });
-                        console.log($(this).attr('data-fade'))
                     });
                 }
 
