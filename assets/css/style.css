@@ -15,7 +15,7 @@ p span  {font-size:16px; font-style: italic; display: block; margin-top: 20px;}
 
 /*TITLE COVER*/
     #section-1          {
-      background: url('../img/main.jpeg');
+/*      background: url('../img/main.jpeg');*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
