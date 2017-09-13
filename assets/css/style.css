@@ -114,11 +114,12 @@ h3.w3l_head.three {
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 26.4px;
-    color:white;
+    line-height: 20px;
     letter-spacing: 1px!important;
 }
-
+.header h1:hover {
+  color:#c39176;
+}
 /*hover buttons*/
 .wrapper {
  -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
@@ -165,7 +166,7 @@ i {
 }
 
 .wrapper a:nth-child(1) {
-color: white;
+color:  white;
   cursor: pointer;
   text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
   transition: all ease-in-out 150ms;
@@ -173,6 +174,7 @@ color: white;
 }
 
 .wrapper a:nth-child(1):hover {
+  color: #c39176;
   margin-top: -10px;
   text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
   transform: translate(0, -8);
@@ -187,6 +189,7 @@ color: white;
 }
 
 .wrapper a:nth-child(2):hover {
+  color:#c39176;
   margin-top: -10px;
   text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
   transform: translate(0, -8);
@@ -201,6 +204,7 @@ color: white;
 }
 
 .wrapper a:nth-child(3):hover {
+  color:#c39176;
   margin-top: -10px;
   text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
   transform: translate(0, -5);
@@ -213,18 +217,17 @@ color: white;
   z-index:2;
 }
 .wrapper a:nth-child(4):hover {
+  color:#c39176;
   margin-top: -10px;
   text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
   transform: translate(0, -8);
 }
-.cursivecaption{
-  z-index:2;
-}
 .caption{
+    margin-top:-30px;
     font-size: 20px;
-    color: #2196F3;
-    padding-top:.5%;
+    padding-bottom:25px;
     margin:0;
+    color:white;
     font-family: "Berkshire Swash";
     font-style: italic;
 }
@@ -251,7 +254,7 @@ color: white;
     margin-right: -50%;
 }
 #title {
-    height:20%;
+    height:15%;
     position:relative;
 
 }
