@@ -340,34 +340,6 @@ color: white;
   -webkit-filter: blur(4px);
 }
 
-.ui {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 10;
-}
-
-button {
-  width: 84px;
-  padding: 10px;
-  color: black;
-  font-weight: bold;
-  background: gold;
-  border: 2px solid black;
-  text-transform: uppercase;
-  cursor: pointer;
-  text-align: center;
-  outline: none;
-  border-radius: 4px;
-}
-button:hover {
-  background: #ffdf33;
-}
-button:active {
-  color: gold;
-  background: black;
-}
-
 .sr-icons{
   color: #c39176 !important;
 }
