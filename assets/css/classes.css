@@ -15,8 +15,8 @@
   transition: color 0.3s;
 }
 
-.list-link--tw a:hover {
-  color: #4099ff;
+.list-link--gh a:hover {
+  color: black;
 }
 
 .list-link--fb a:hover {
@@ -32,4 +32,11 @@
 }
 .soc {
   font-size: 20px; 
+}
+#section-3 .row {
+  padding-top:15%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }

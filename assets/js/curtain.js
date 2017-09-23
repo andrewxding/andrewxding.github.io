@@ -7,7 +7,6 @@
 */
 
 (function ( $, window, document, undefined ) {
-
     var pluginName = 'curtain',
         defaults = {
             scrollSpeed: 400,
@@ -240,7 +239,14 @@
                         });
                     });
                 }
-
+                if(docTop <  $(window).height()){
+                    setTimeout(function(){ 
+                        $('.box').addClass('on');
+                    }, 350)
+                }
+                else{
+                    $('.box').removeClass('on');
+                }
                 if(self.$slowScroll.length){
                     self.$slowScroll.css({
                         'margin-top' : (docTop / self.$slowScroll.attr('data-slow-scroll'))
@@ -481,6 +487,7 @@
             self.parallaxBg = self.$current.attr('data-parallax-background');
             self.$fade = self.$current.find('[data-fade]');
             self.$slowScroll = self.$current.find('[data-slow-scroll]');
+
 
         },
         // Utils

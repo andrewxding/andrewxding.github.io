@@ -43,7 +43,6 @@ var createEntry = function (item){
 }
 $(document).ready(function() {
   var gallery = [];
-  gallery.push(new entry("C++", "school at ucla taught", "http://globalgamejam.org/sites/default/files/styles/game_sidebar__normal/public/game/featured_image/promo_5.png?itok=9dymM8JD", "http://google.com", "c++", ["c++"]));
   gallery.push(new entry("Spotify Scraper", 
     "Extract song/artist information and scrapes the song lyrics and artist background information",
     "http://www.scdn.co/i/_global/open-graph-default.png",
@@ -55,16 +54,14 @@ $(document).ready(function() {
     "https://voltron00x.files.wordpress.com/2014/04/chrome-os-2odl-800.jpg",
     "http://google.com",
     "javascript",
-    ["javascript"]));
-    gallery.push(new entry("C++", "school at ucla taught", "http://globalgamejam.org/sites/default/files/styles/game_sidebar__normal/public/game/featured_image/promo_5.png?itok=9dymM8JD", "http://google.com", "c++", ["c++"]));
-
-  gallery.push(new entry("Location Listener", 
-    "Chrome Extension offering tab audio utility! Mutes tabs at quiet preset locations such as the library or class.",
-    "https://voltron00x.files.wordpress.com/2014/04/chrome-os-2odl-800.jpg",
+    ["javascript", "css", "html"]));
+  gallery.push(new entry("Soundfeed", 
+    "Live Soundcloud friend activity feed - in progress",
+    "https://coderwall-assets-0.s3.amazonaws.com/uploads/picture/file/641/soundcloud_logo_css_by_timpietrusky.png",
     "http://google.com",
-    "code",
-    ["code"]));
-  gallery.forEach(createEntry);
+    "javascript",
+    ["javascript", "css", "html"]));
+  // gallery.forEach(createEntry);
 });
 
 function fadeGallery(){

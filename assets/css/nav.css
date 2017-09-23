@@ -75,7 +75,6 @@ nav a:hover {
 
 #logo, #social {
   position: absolute;
-  color: black;
   z-index: 100;
   transition: 1s;
   line-height: 80px;
@@ -101,12 +100,13 @@ nav a:hover {
   right: -150px;
   font-size: 35px;
   z-index: 100; 
-  color: #4a4a4a;
+  
 }
 #headericon{
   transition: all.5s !important;
   -webkit-transition:all .5s !important;
     -moz-transition: all 0.5s !important;
+    color: #4a4a4a;
 }
 #headericon:hover{
   color:#c39176

@@ -123,16 +123,17 @@ h3.w3l_head.three {
 /*hover buttons*/
 .wrapper {
  -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
-    animation-delay: 1s;
+  animation-delay: 1s;
   display: inline-flex;
   margin: 0;
   align-items: center;
   justify-content: center;
   z-index: 99999;
-margin-right: auto;
+  margin-right: auto;
   margin-left: auto;
+  margin-top:15px;
   left:39%;
--webkit-animation: slideIn 2s; /* Safari, Chrome and Opera > 12.1 */
+  -webkit-animation: slideIn 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: slideIn 2s; /* Firefox < 16 */
         -ms-animation: slideIn 2s; /* Internet Explorer */
          -o-animation: slideIn 2s; /* Opera < 12.1 */
@@ -291,6 +292,8 @@ color:  white;
   top: 200px !important;
   width:600px;
   height:600px;
+  float:center;
+  margin:auto;
 }
 
 .box {
@@ -356,7 +359,7 @@ color:  white;
 .sectionhead{
   padding-top:10% !important;
   font-size: 60px;
-  line-height: 26.4px;
+  line-height: 37px;
   color:white;
 }
 .text-brown{
@@ -377,3 +380,8 @@ color:  white;
   background-color: #c39176;
 
 }
+.reveal{
+  display:none;
+  color:#c39176;
+}
+

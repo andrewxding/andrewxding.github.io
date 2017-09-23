@@ -1,7 +1,4 @@
 $(function(){
-     setTimeout(function(){ 
-        $('.box').toggleClass('on');
-      }, 1000)
 
       var  $body = $('body')
 
@@ -13,7 +10,17 @@ $(function(){
           //  console.log("ok");
          //  }
        });
-            
+        $("#section-3 img").each(function(){
+          var tmp = "#" + $(this).attr('reveal');
+          $(this).mouseenter(function(){
+            $("#revealtext").text($(tmp).text());
+            $("#revealtext").fadeIn(250);
+          });
+           $(this).mouseleave(function(){
+            $("#revealtext").fadeOut(250);
+            $("#revealtext").text("");
+          })
+        })
 
   });
 // var f = (function(){
